@@ -26,13 +26,13 @@ function Home2() {
               , I designed and optimized RESTful APIs, implemented secure
               authentication systems, and enhanced frontend–backend performance.
               I also collaborated on full-stack projects, gaining practical
-              experience in designing, developing and maintaining web
+              experience in designing, developing, deploying and maintaining web
               applications.
               <br />
               <br />I have hands-on experience in designing user-friendly
               workflows, implementing secure authentication, and{" "}
               <b className="purple">
-                deployed production-ready full-stack applications to the cloud
+                deploying production-ready full-stack applications to the cloud
               </b>{" "}
               on platforms like Render, Vercel, and Netlify.
               <br />
@@ -40,6 +40,11 @@ function Home2() {
               Actively seeking a full-stack developer role to contribute my
               technical expertise and continuously enhance my skills and
               knowledge.
+              <br />I primarily work with <b className="purple">
+                React.js
+              </b> and <b className="purple">Node.js</b>, and I’m currently
+              exploring <b className="purple">Next.js</b> to create dynamic,
+              production-grade applications.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
