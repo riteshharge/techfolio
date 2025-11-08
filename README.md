@@ -52,7 +52,7 @@ A full-stack blogging application built with React.js, Node.js, Express.js, and 
 
 I’m always open to collaborating on exciting projects or opportunities!
 
-- **Email:** riteshharge@example.com
+- **Email:** hargeritesh@gmail.com
 - **LinkedIn:** [linkedin.com/in/riteshharge](https://www.linkedin.com/in/riteshharge)
 - **GitHub:** [github.com/riteshharge](https://github.com/riteshharge)
 
