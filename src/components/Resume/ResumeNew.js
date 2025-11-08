@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import pdf from "../../Assets/Ritesh_Harge_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -23,7 +22,6 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
 
-        {/* Top Download Button */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -36,18 +34,12 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {/* Resume PDF Viewer */}
         <Row className="resume">
-          <Document
-            file={pdf}
-            className="d-flex justify-content-center"
-            loading="Loading Resume..."
-          >
+          <Document file={pdf} loading="Loading Resume...">
             <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.6} />
           </Document>
         </Row>
 
-        {/* Bottom Download Button */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
