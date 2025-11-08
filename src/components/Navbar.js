@@ -116,7 +116,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/@riteshharge"
+                href="https://medium.com/@hargeritesh/solving-real-world-problems-through-scalable-web-solutions-with-mern-stack-8dc0efb0d570"
                 target="_blank"
                 rel="noreferrer"
               >
