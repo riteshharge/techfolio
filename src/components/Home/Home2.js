@@ -13,9 +13,10 @@ function Home2() {
               LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a passionate <b className="purple">MERN Stack Developer</b>{" "}
-              focused on building fast, scalable, and user-friendly web
-              applications.
+              Hi, I’m <b className="purple">Ritesh Harge</b> — a{" "}
+              <b className="purple">MERN Full Stack Developer</b> skilled in
+              building scalable, user-friendly web applications with React.js,
+              Node.js, Express.js, MongoDB, and MySQL.
               <br />
               <br />
               During my{" "}
@@ -23,38 +24,22 @@ function Home2() {
                 6-month internship at ECS Software Technology Pvt. Ltd., Pune
               </b>
               , I designed and optimized RESTful APIs, implemented secure
-              authentication systems, and enhanced frontend–backend performance.{" "}
-              I also{" "}
+              authentication systems, and enhanced frontend–backend performance.
+              I also collaborated on full-stack projects, gaining practical
+              experience in designing, developing and maintaining web
+              applications.
+              <br />
+              <br />I have hands-on experience in designing user-friendly
+              workflows, implementing secure authentication, and{" "}
               <b className="purple">
-                collaborated closely with senior developers
+                deployed production-ready full-stack applications to the cloud
               </b>{" "}
-              in code reviews, debugging, and feature planning — which helped me
-              strengthen my problem-solving skills and understand real-world
-              software development practices.
+              on platforms like Render, Vercel, and Netlify.
               <br />
               <br />
-              I’m proficient in{" "}
-              <b className="purple">
-                JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB, and
-                MySQL
-              </b>
-              . I enjoy developing complete web solutions that combine solid
-              logic with clean, maintainable design.
-              <br />
-              <br />
-              My interests lie in{" "}
-              <b className="purple">
-                full-stack development, performance optimization, and cloud
-                deployment
-              </b>
-              . I’m always eager to learn and apply modern technologies that
-              make web solutions more efficient and scalable.
-              <br />
-              <br />I primarily work with <b className="purple">
-                React.js
-              </b> and <b className="purple">Node.js</b>, and I’m currently
-              exploring <b className="purple">Next.js</b> to create dynamic,
-              production-grade applications.
+              Actively seeking a full-stack developer role to contribute my
+              technical expertise and continuously enhance my skills and
+              knowledge.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

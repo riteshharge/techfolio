@@ -46,6 +46,18 @@ function Projects() {
             />
           </Col>
 
+          {/* Portfolio */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Techfolio"
+              description="A personal developer portfolio built with React.js and Bootstrap, showcasing my projects, skills, and professional experience. Features a clean, responsive, and visually engaging design with smooth navigation and interactive sections. Built to highlight technical expertise, problem-solving abilities, and front-end development skills."
+              ghLink="https://github.com/riteshharge/techfolio"
+              demoLink="https://techfolio-ritesh.vercel.app"
+            />
+          </Col>
+
           {/* Amazon Product Listing with AI */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -58,25 +70,13 @@ function Projects() {
             />
           </Col>
 
-          {/* Portfolio */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Portfolio Website"
-              description="A personal developer portfolio built with React.js and Bootstrap, showcasing my projects, skills, and professional experience. Features a clean, responsive, and visually engaging design with smooth navigation and interactive sections. Built to highlight technical expertise, problem-solving abilities, and front-end development skills."
-              ghLink="https://github.com/riteshharge/techfolio"
-              demoLink="https://riteshharge-portfolio.vercel.app/"
-            />
-          </Col>
-
           {/* Blog App */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
               title="Blog App"
-              description="A full-stack blogging application built with React.js, Node.js, Express.js, and MongoDB. Features JWT-based authentication, full CRUD operations for blogs, comments, hashtags, and author mentions, and a clean, responsive, and interactive UI. Enables users to create, manage, and explore content seamlessly while demonstrating scalable web architecture and front-end expertise."
+              description="A full-stack blogging application built with React.js, Node.js, Express.js, and MongoDB. Features JWT-based authentication, CRUD operations for blogs, comments, hashtags, and author mentions, with a clean, responsive, and interactive UI. Built to provide seamless content creation, management, and exploration"
               ghLink="https://github.com/riteshharge/Blog-MernStackDev-App"
               demoLink="https://blog-mernstackdev-app.onrender.com/"
             />
