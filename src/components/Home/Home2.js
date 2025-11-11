@@ -40,6 +40,7 @@ function Home2() {
               Actively seeking a full-stack developer role to contribute my
               technical expertise and continuously enhance my skills and
               knowledge.
+              <br />
               <br />I primarily work with <b className="purple">
                 React.js
               </b> and <b className="purple">Node.js</b>, and I’m currently
