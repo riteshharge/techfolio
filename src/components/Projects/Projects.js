@@ -46,18 +46,6 @@ function Projects() {
             />
           </Col>
 
-          {/* Portfolio */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Techfolio"
-              description="A personal developer portfolio built with React.js and Bootstrap, showcasing my projects, skills, and professional experience. Features a clean, responsive, and visually engaging design with smooth navigation and interactive sections. Built to highlight technical expertise, problem-solving abilities, and front-end development skills."
-              ghLink="https://github.com/riteshharge/techfolio"
-              demoLink="https://techfolio-ritesh.vercel.app"
-            />
-          </Col>
-
           {/* Amazon Product Listing with AI */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -67,6 +55,18 @@ function Projects() {
               description="A full-stack application that fetches Amazon product details using ASIN and generates AI-optimized versions of the listings using Gemini AI. Features include ASIN search history tracking, dual product cards (original vs. AI-optimized), and MySQL-based data storage. Built with React (Vite), Node.js, and Express."
               ghLink="https://github.com/riteshharge/OptimizeList-AI"
               demoLink="https://ai-powered-amazon-product-listing-xo2w.onrender.com"
+            />
+          </Col>
+
+          {/* Portfolio */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Techfolio"
+              description="A personal developer portfolio built with React.js and Bootstrap, showcasing my projects, skills, and professional experience. Features a clean, responsive, and visually engaging design with smooth navigation and interactive sections. Built to highlight technical expertise, problem-solving abilities, and front-end development skills."
+              ghLink="https://github.com/riteshharge/techfolio"
+              demoLink="https://techfolio-ritesh.vercel.app"
             />
           </Col>
 
