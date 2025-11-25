@@ -68,16 +68,7 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/riteshharge/"
@@ -86,6 +77,17 @@ function Home() {
                   className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">

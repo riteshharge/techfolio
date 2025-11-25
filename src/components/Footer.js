@@ -38,18 +38,6 @@ function Footer() {
               </a>
             </li>
 
-            {/* Twitter */}
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-
             {/* LinkedIn */}
             <li className="social-icons">
               <a
@@ -59,6 +47,18 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+
+            {/* Twitter */}
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
 
